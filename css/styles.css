@@ -4,13 +4,57 @@ body {
   background-color: #fff;
 }
 
+/*reset*/
+
 ul,
 ol {
   list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
 }
 
 a {
   text-decoration: none;
+}
+
+/*common*/
+
+.container {
+  max-width: 1158px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+/*header*/
+
+.body-header {
+  border-bottom: 1px solid #e7e9fc;
+  background-color: #fff;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+}
+.header-nav {
+  display: flex;
+  align-items: center;
+}
+
+.nav-list {
+  display: flex;
+  align-items: center;
+  gap: 40px;
 }
 
 .logo-header-nav-logo {
@@ -21,6 +65,8 @@ a {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+  padding: 24px 0;
+  margin-right: 76px;
 }
 
 .logo-header-nav-logo .nav-logo-part {
@@ -28,24 +74,35 @@ a {
 }
 
 .nav-list-link {
+  display: block;
   font-family: Roboto, sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  padding: 24px 0;
 }
 
 .header-address {
   font-style: normal;
+  margin-left: auto;
+}
+
+.header-address-list {
+  display: flex;
+  align-items: center;
+  gap: 24px;
 }
 
 .header-adress-link {
+  display: block;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+  padding: 24px 0;
 }
 
 .nav-list-link:hover,
@@ -54,6 +111,8 @@ a {
 .header-adress-link:focus {
   color: #404bbf;
 }
+
+/*hero section*/
 
 .hero-section {
   /*wight*/
@@ -84,6 +143,8 @@ a {
   background: #404bbf;
 }
 
+/*features*/
+
 .features-item-title {
   font-weight: 500;
   font-size: 20px;
@@ -97,6 +158,8 @@ a {
   letter-spacing: 0.02em;
   color: #434455;
 }
+
+/*team*/
 
 .team-section {
   background-color: #f4f4fd;
@@ -131,6 +194,8 @@ a {
   color: #434455;
 }
 
+/*portfolio*/
+
 .portfolio-section {
   background-color: #fff;
 }
@@ -159,6 +224,8 @@ a {
   letter-spacing: 0.02em;
   color: #434455;
 }
+
+/*footer*/
 
 .page-footer {
   background-color: #2e2f42;
