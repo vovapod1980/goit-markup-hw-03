@@ -115,10 +115,12 @@ a {
 /*hero section*/
 
 .hero-section {
-  /*wight*/
   background: #2e2f42;
 }
 
+.container-hero {
+  padding-bottom: 188px;
+}
 .title-hero {
   font-weight: 700;
   font-size: 56px;
@@ -126,6 +128,8 @@ a {
   letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
+  padding-top: 188px;
+  margin: 0 auto 48px;
 }
 
 .button-hero-section {
@@ -136,6 +140,7 @@ a {
   line-height: 1.5;
   letter-spacing: 0.04em;
   cursor: pointer;
+  margin: 0 auto;
 }
 
 .button-hero-section:hover,
@@ -144,6 +149,9 @@ a {
 }
 
 /*features*/
+
+.features-section {
+}
 
 .features-item-title {
   font-weight: 500;
