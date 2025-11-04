@@ -120,11 +120,11 @@ a {
 
 .hero-section {
   background: #2e2f42;
+  padding-top: 188px;
+  padding-bottom: 188px;
 }
 
 .container-hero {
-  padding-top: 188px;
-  padding-bottom: 188px;
 }
 
 .title-hero {
