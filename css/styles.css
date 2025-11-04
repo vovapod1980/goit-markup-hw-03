@@ -96,7 +96,7 @@ a {
 .header-address-list {
   display: flex;
   align-items: center;
-  gap: 24px;
+  gap: 40px;
 }
 
 .header-adress-link {
