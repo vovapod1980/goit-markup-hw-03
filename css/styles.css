@@ -235,12 +235,12 @@ a {
   display: flex;
   max-width: 1158px;
   gap: 24px;
-  width: calc((100% - 3 * 24px) / 4);
 }
 
 .team-list-item {
   background-color: #fff;
   border-radius: 0 0 4px 4px;
+  width: calc((100% - 3 * 24px) / 4);
 }
 
 .team-item-title {
