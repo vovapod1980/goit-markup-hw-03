@@ -123,8 +123,10 @@ a {
 }
 
 .container-hero {
+  padding-top: 188px;
   padding-bottom: 188px;
 }
+
 .title-hero {
   font-weight: 700;
   font-size: 56px;
